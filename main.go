@@ -10,7 +10,6 @@ func main() {
 		if r.Method == http.MethodGet {
 			fmt.Fprintf(w, "Data here!")
 
-			
 		} else {
 			fmt.Fprintf(w, "Invalid request!")
 		}
